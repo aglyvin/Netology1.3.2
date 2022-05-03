@@ -152,6 +152,6 @@ class MainKtTest {
             previousPay,
             payAmount
         )
-        assertEquals(false, res)
+        assertEquals(true, res)
     }
 }
